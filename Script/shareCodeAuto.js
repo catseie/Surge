@@ -36,6 +36,7 @@ const shareCodes = [
         jxgc: "Nr9kGXGO3ut5TW6mwIw8rA==",
         jdzz: "S5KkcRxsQ8lHWJB-nl_EJcA",
     },
+ /*
     {
         zd: "4npkonnsy7xi2ntuewekonkdcnbarrv6o433mva",
         nc: "b074877a6b864f8285d440ccc7f4aa75",
@@ -44,6 +45,7 @@ const shareCodes = [
         jxgc: "Nr9kGXGO3ut5TW6mwIw8rA==",
         jdzz: "S5KkcRxsQ8lHWJB-nl_EJcA",
     },
+    */
 ];
 $.result = [];
 $.random = Math.floor(Math.random() * 60);
