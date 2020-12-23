@@ -9,11 +9,11 @@
 const $ = new Env("互助码");
 const shareCodes = [
   {
-    zd: $.getdata("zd_shareCode1") || "jbfdsjfwuqzb4o3lsghskjb3pi",
-    nc: $.getdata("nc_shareCode1") || "76f7925b670f4813b8a22f812c9606a6",
-    mc: $.getdata("mc_shareCode1") || "MTAxODc2NTEzMDAwMDAwMDAwMDA0MjYwOQ==",
-    ddgc: $.getdata("dd_shareCode1") || "P04z54XCjVWnYaS5kRLUzm8iD4",
-    jxgc: $.getdata("jx_shareCode1") || "NKLy_UyXMMKOzNIIuMr1Hw==",
+    zd: $.getdata("zd_shareCode1") || "4npkonnsy7xi2ntuewekonkdcnbarrv6o433mva",
+    nc: $.getdata("nc_shareCode1") || "b074877a6b864f8285d440ccc7f4aa75",
+    mc: $.getdata("mc_shareCode1") || "MTAxODc2NTEzMjAwMDAwMDAyNzUwMzIwMQ==",
+    ddgc: $.getdata("dd_shareCode1") || "T0225KkcRxsQ8lHWJB-nl_EJcACjVWnYaS5kRrbA",
+    jxgc: $.getdata("jx_shareCode1") || "Nr9kGXGO3ut5TW6mwIw8rA==",
   },
   {
     zd: $.getdata("zd_shareCode2") || "",
@@ -27,20 +27,20 @@ const shareCodes = [
 const $ = new Env("互助码");
 const shareCodes = [
     {
-        zd: "jbfdsjfwuqzb4o3lsghskjb3pi",
-        nc: "76f7925b670f4813b8a22f812c9606a6",
-        mc: "MTAxODc2NTEzMDAwMDAwMDAwMDA0MjYwOQ==",
-        ddgc: "P04z54XCjVWnYaS5kRLUzm8iD4",
-        jxgc: "NKLy_UyXMMKOzNIIuMr1Hw==",
-        jdzz: "AenYNxunFjw",
+        zd: "4npkonnsy7xi2ntuewekonkdcnbarrv6o433mva",
+        nc: "b074877a6b864f8285d440ccc7f4aa75",
+        mc: "MTAxODc2NTEzMjAwMDAwMDAyNzUwMzIwMQ==",
+        ddgc: "T0225KkcRxsQ8lHWJB-nl_EJcACjVWnYaS5kRrbA",
+        jxgc: "Nr9kGXGO3ut5TW6mwIw8rA==",
+        jdzz: "S5KkcRxsQ8lHWJB-nl_EJcA",
     },
     {
-        zd: "d7xlbcknxsixyuwcs5whsnibx4",
-        nc: "9aed2e98647a402ea9895d75fef47b0d",
-        mc: "MTAxODc2NTEzMDAwMDAwMDAwMDA0MjYwOQ==",
-        ddgc: "P04z54XCjVWnYaS5kFXVj-nnQ",
-        jxgc: "",
-        jdzz: "Af2oIwPLQ",
+        zd: "4npkonnsy7xi2ntuewekonkdcnbarrv6o433mva",
+        nc: "b074877a6b864f8285d440ccc7f4aa75",
+        mc: "MTAxODc2NTEzMjAwMDAwMDAyNzUwMzIwMQ==",
+        ddgc: "T0225KkcRxsQ8lHWJB-nl_EJcACjVWnYaS5kRrbA",
+        jxgc: "Nr9kGXGO3ut5TW6mwIw8rA==",
+        jdzz: "S5KkcRxsQ8lHWJB-nl_EJcA",
     },
 ];
 $.result = [];
