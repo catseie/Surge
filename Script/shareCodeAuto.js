@@ -35,6 +35,7 @@ const shareCodes = [
         ddgc: "T0225KkcRxsQ8lHWJB-nl_EJcACjVWnYaS5kRrbA",
         jxgc: "Nr9kGXGO3ut5TW6mwIw8rA==",
         jdzz: "S5KkcRxsQ8lHWJB-nl_EJcA",
+        joy: "tkHy0JCd1O1GcQG4X296xKt9zd5YaBeE",
     },
  /*
     {
@@ -44,6 +45,7 @@ const shareCodes = [
         ddgc: "T0225KkcRxsQ8lHWJB-nl_EJcACjVWnYaS5kRrbA",
         jxgc: "Nr9kGXGO3ut5TW6mwIw8rA==",
         jdzz: "S5KkcRxsQ8lHWJB-nl_EJcA",
+        joy: "tkHy0JCd1O1GcQG4X296xKt9zd5YaBeE",
     },
     */
 ];
@@ -53,7 +55,7 @@ $.random = Math.floor(Math.random() * 60);
 !(async () => {
     console.log(`\n此脚本延迟${$.random}秒执行\n`);
     for (let i = 0; i < shareCodes.length; i++) {
-        const { zd, nc, mc, ddgc, jxgc, jdzz } = shareCodes[i];
+        const { zd, nc, mc, ddgc, jxgc, jdzz, joy } = shareCodes[i];
         await $.wait($.random);
         zd &&
         (await create(
@@ -89,6 +91,12 @@ $.random = Math.floor(Math.random() * 60);
         (await create(
             `https://code.chiang.fun/api/v1/jd/jdzz/create/${jdzz}/`,
             "京东赚赚"
+        ));
+        await $.wait($.random);
+        joy &&
+        (await create(
+            `https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/${joy}/`,
+            "CrazyJoy"
         ));
     }
     await showMsg();
